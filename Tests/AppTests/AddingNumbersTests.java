@@ -21,5 +21,6 @@ public class AddingNumbersTests {
 		int expectedResult = -30;
 		int ActuaResult = myCalculator.Add(-10, -20);
 		Assert.assertEquals("The the sum of two negative numbers is correct", expectedResult, ActuaResult);
+		System.out.println();
 	}
 }
